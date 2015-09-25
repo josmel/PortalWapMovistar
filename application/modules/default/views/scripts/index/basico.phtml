@@ -1,0 +1,163 @@
+<?php echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" ?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+    "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+    <card title=\"Movistar\" newcontext=\"true\">
+
+    <table columns=\"1\" align=\"left\" >
+        <tr>
+            <td>
+                <p color="red">MOVISTAR</p>
+            </td>
+        </tr>
+
+        <?php if ($this->estado) { ?>
+            <tr>
+                <td>
+                    <p color="red">bienvenid@ <?php echo $this->estado; ?></p>
+                </td>
+            </tr>
+
+        <?php } else { ?>
+
+            <tr>
+                <td>        
+                    <a href="/go?categoria=inscripcion&descripcion=movistarMas&link=/portalwap/registrate">
+                        Registrate a Movistar Mas
+                    </a>
+                </td>
+            </tr>
+        <?php } ?>
+
+        <?php foreach (array(1, 2, 3) as $i) : ?>
+            <tr>
+                <td>        
+                    <a href="/go?categoria=banner<?= $i ?>.<?= $this->SoapBanners[$i][0]['norder'] ?>&descripcion=<?= $this->SoapBanners[$i][0]['integrador'] ?>&link=<?= $this->SoapBanners[$i][0]['url'] ?>">
+                        <?= $this->SoapBanners[$i][0]['titulo'] ?>
+                    </a>
+                </td>
+            </tr>
+        <?php endforeach; ?>
+        <tr>
+            <td>
+                <p>Top Link</p>
+            </td>
+        </tr>
+
+        <?php foreach ($this->SoapLink as $item): ?>
+            <tr>
+                <td>         
+                    <a  href="/go?categoria=topLink&descripcion=<?= $item['descripcion'] ?>&link=<?= $item['url'] ?>"> 
+                        <?= $item['descripcion'] ?>
+                    </a>
+                </td>
+            </tr>
+        <?php endforeach; ?>  
+        <tr>
+            <td>
+                <p>Entretenimiento</p>
+            </td>
+        </tr>
+        <tr>
+            <td>        
+                <a href="/go?categoria=MovistarBanner&descripcion=<?= $this->SoapMovistarBanners['integrador'] ?>&link=<?= $this->SoapMovistarBanners['url'] ?>">
+                    <?= $this->SoapMovistarBanners['titulo'] ?>
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p>Servicios</p>
+            </td>
+        </tr>
+
+        <?php foreach ($this->SoapServicio as $item): ?>
+            <tr>
+                <td>
+                    <a  href="/go?categoria=servicio&descripcion=<?= $item['descripcion'] ?>&link=<?= $item['url'] ?>"> 
+                        <?= $item['descripcion'] ?>
+                    </a>
+                </td>
+            </tr>
+        <?php endforeach; ?>
+        <tr>
+            <td>
+                <p>Musica (Dando clic en la canción ya estás comprando! Costo S/. 4.75 )</p>
+            </td>
+        </tr>
+
+        <?php foreach ($this->SoapMusica as $item): ?>
+            <tr>
+                <td> 
+                    <a class="text-link"
+                       href="/go?categoria=musica&descripcion=<?= $item['titulo'] ?>&link=<?= $item["url"] ?>"><?= $item["titulo"] ?>
+                    </a>
+                </td>
+            </tr>
+        <?php endforeach; ?>
+
+        <tr>
+            <td>
+                <p>Juegos (Dando clic al juego ya estás comprando! Costo S/. 5.00)</p>
+            </td>
+        </tr>
+
+        <?php foreach ($this->SoapJuego as $item): ?>
+            <tr>
+                <td>
+                    <a class="text-link"
+                       href="/go?categoria=juego&descripcion=<?= $item['nombre'] ?>&link=<?= $item["url"] ?>"><?= $item["nombre"] ?>
+                    </a>
+                </td>
+            </tr>
+        <?php endforeach; ?>
+
+
+        <?php foreach (array(4) as $i) : ?>
+            <tr>
+                <td>
+                    <a href="/go?categoria=banner<?= $i ?>.<?= $this->SoapBanners[$i][0]['norder'] ?>&descripcion=<?= $this->SoapBanners[$i][0]['integrador'] ?>&link=<?= $this->SoapBanners[$i][0]['url'] ?>">
+                        <?= $this->SoapBanners[$i][0]['titulo'] ?>
+                    </a>
+                </td>
+            </tr>
+        <?php endforeach; ?>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+
+        <?php foreach ($this->SoapText as $item): ?>
+            <tr>
+                <td>
+            <u><a class="list-link2" href="/go?categoria=textLink&descripcion=<?= $item['alt'] ?>&link=<?= $item['url'] ?>">
+                    <?= $item['descripcion'] ?>
+                </a></u>
+            </td>
+            </tr>
+        <?php endforeach; ?>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+
+
+
+        <?php foreach (array(5) as $i) : ?>
+            <tr>
+                <td>
+                    <a href="/go?categoria=banner<?= $i ?>.<?= $this->SoapBanners[$i][0]['norder'] ?>&descripcion=<?= $this->SoapBanners[$i][0]['integrador'] ?>&link=<?= $this->SoapBanners[$i][0]['url'] ?>">
+                        <?= $this->SoapBanners[$i][0]['titulo'] ?>
+                    </a>
+                </td>
+            </tr>
+        <?php endforeach; ?>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr>
+            <td>
+                <a  href="/go?categoria=legal&descripcion=Legal&link=/portalwap/legal">Legal</a>
+            </td>
+        </tr>
+    </table>
+
+</wml>

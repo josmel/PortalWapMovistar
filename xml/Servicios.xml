@@ -1,0 +1,78 @@
+<servicios>
+        <principal>
+                <item>
+                        <descripcion>Música</descripcion>
+                        <enlace>/go?link=http://pe.movistar.genexies.net</enlace>
+                        <imagen>icono_musica.jpg</imagen>
+                        <alt>Música</alt>
+                </item>
+                <item>
+                        <descripcion>Juegos</descripcion>
+                        <enlace>/go?link=http://mcp-latam.zed.com/pe/juegos/?ma=</enlace>
+                        <imagen>icono_juegos.jpg</imagen>
+                        <alt>Juegos</alt>
+                </item>
+                <item>
+                        <descripcion>Videos</descripcion>
+                        <enlace>/go?link=http://mcp-latam.zed.com/pe/videos/?ma=</enlace>
+                        <imagen>icono_videos.jpg</imagen>
+                        <alt>Videos</alt>
+                </item>
+                <item>
+                        <descripcion>Adultos</descripcion>
+                        <enlace>/go?link=http://mcp-latam.zed.com/pe/adultos/?ma=</enlace>
+                        <imagen>icono_adulto.jpeg</imagen>
+                        <alt>Adultos</alt>
+                </item>
+                <item>
+                        <descripcion>Noticias</descripcion>
+                        <enlace>/go?link=/portalwap/noticias</enlace>
+                        <imagen>icono_noticias.jpeg</imagen>
+                        <alt>Noticias</alt>
+                </item>
+                <item>
+                        <descripcion>Ringback Tones</descripcion>
+                        <enlace>/go?link=portalwap/rbt</enlace>
+                        <imagen>icono_rbt.jpg</imagen>
+                        <alt>Ringback Tones</alt>
+                </item>
+                <item>
+                        <descripcion>Redes Sociales</descripcion>
+                        <enlace>/go?link=portalwap/redes-sociales</enlace>
+                        <imagen>icono_redes.jpg</imagen>
+                        <alt>Redes Sociales</alt>
+                </item>
+                <item>
+                        <descripcion>Portal 515</descripcion>
+                        <enlace>/go?link=/portalwap/portal515</enlace>
+                        <imagen>icono_portal515.jpg</imagen>
+                        <alt>Portal 515</alt>
+                </item>
+        </principal>
+        <second>
+                <item>
+			<descripcion>Regalamos 10 soles de saldo</descripcion>
+			<enlace>/go?link=http://www.tuviamovil.com/waplp/uat/2/nwap6/conquista.html?keyword=ONPORTAL&amp;categoria=text</enlace>			
+			<alt>Regalamos 10 soles de saldo</alt>
+		</item>
+                <item>
+                            <descripcion>LOS SECRETOS DE LA JUVENTUD</descripcion>
+                        <enlace>/go?link=http://helm.tekmob.com/pim/pemsalud?tid=31002&amp;keyword=ONPORTAL</enlace>
+                        <alt>LOS SECRETOS DE LA JUVENTUD</alt>
+                </item>
+                <item>
+                        <descripcion>Quieres mejor suerte en el amor y dinero? Haz click Aqui</descripcion>
+                        <enlace>/go?link=http://wap.lalleva.com/ms/pemgalleta/index.wml?keyword=ONPORTAL</enlace>
+                        <alt>Quieres mejor suerte en el amor y dinero? Haz click Aqui</alt>
+                </item>
+                <item>
+                        <descripcion>Facebook</descripcion>
+                        <enlace>/go?link=http://m.facebook.com</enlace>
+                        <alt>Facebook</alt>
+                </item>
+        </second>
+        <footer>
+            <descripcion>Legal</descripcion>
+            <enlace>/go?link=portalwap/legal</enlace>
+        </footer>
+</servicios>

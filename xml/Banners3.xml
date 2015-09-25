@@ -1,0 +1,78 @@
+<banner>
+	<top>
+                <item>
+                        <descripcion>Facebook Chat</descripcion>
+                         <enlace>/go?link= http://naranya.mx/SAMOVKA01</enlace>
+                        <imagen>banner_1.1.gif</imagen>
+                        <alt>Facebook Chat</alt>
+                        <posicion>banner1.1</posicion>
+                </item>
+                <item>
+			<descripcion>Chisjuegos</descripcion>
+			<enlace>/go?link=http://helm.tekmob.com/pim/pemrisa1?tid=31001&amp;keyword=ONPORTAL</enlace>
+			<imagen>banner_2.1.gif</imagen>
+            		<alt>Chisjuegos</alt>
+                        <posicion>banner2.1</posicion>
+		</item>
+                <item>
+			<descripcion>S/.500 son tuyos!!</descripcion>
+			<enlace>/go?link=http://wap.lalleva.com/ms/pemrealituit/index.wml?keyword=ONPORTAL</enlace>
+			<imagen>banner_3.1.gif</imagen>
+            		<alt>S/.500 son tuyos!!</alt>
+                        <posicion>banner3.1</posicion>
+		</item>
+		<item>
+			<descripcion>Descarga en tu movil</descripcion>
+			<enlace>/go?link=http://wap.renxo.com/pe/es/subscriptionPlanDetail.do?id=4126&amp;pbid=780&amp;opd=false&amp;wc=18267&amp;trk=true&amp;cat=7&amp;ceid=12300&amp;keyword=ONPORTAL</enlace>
+			<imagen>banner_4.1.gif</imagen>
+			<alt>Descarga en tu movil</alt>
+                        <posicion>banner4.1</posicion>
+		</item>
+                <item>
+			<descripcion>Chicas Vip</descripcion>
+			<enlace>/go?link=http://ad.adschemist.com/redirect?idc=51&amp;v=91085&amp;pixeltracking=[TRACKING_ID]</enlace>
+			<imagen>banner_5.1.jpg</imagen>
+			<alt>Chicas Vip</alt>
+                        <posicion>banner5.1</posicion>
+		</item>               
+		<item>
+			<descripcion>Te regalamos en recarga</descripcion>
+			<enlace>/go?link=http://www.tuviamovil.com/waplp/uat/2/nwap6/conquista.html?keyword=ONPORTAL</enlace>
+			<imagen>banner_6.1.gif</imagen>
+			<alt>Te regalamos en recarga</alt>
+                        <posicion>banner6.1</posicion>
+		</item>
+	</top>
+	<middle>
+                <item>
+			<descripcion>Beyond</descripcion>
+			<enlace>/go?link=http://wap.clubwebin.com/wapkpop/</enlace>
+			<imagen>kpop.jpg</imagen>
+			<alt>Beyond</alt>
+                        <posicion>7.1</posicion>
+		</item>
+		<item>
+			<descripcion>Gmovil</descripcion>
+			<enlace>/go?link=http://www.chevere.pe/welcome/registro/game/gmovil/112233</enlace>
+			<imagen>gmovil.jpg</imagen>
+			<alt>Gmovil</alt>
+                        <posicion>banner8.1</posicion>
+		</item>		
+	</middle>
+	<down>
+                 <item>
+			<descripcion>Club Juegos</descripcion>
+			<enlace>/go?link=http://portales-cl.3gmotion.cl/le/wap.asp?sitio=3774</enlace>
+			<imagen>banner_2.gif</imagen>
+            		<alt>Club Juegos</alt>
+                        <posicion>banner9.1</posicion>
+		</item>
+                <item>
+			<descripcion>Amor</descripcion>
+			<enlace>/go?link=http://helm.tekmob.com/pim/pemsalud?tid=31002&amp;keyword=ONPORTAL</enlace>
+			<imagen>banner_10.1.gif</imagen>
+			<alt>Amor</alt>
+                        <posicion>banner10.1</posicion>
+		</item>
+	</down>	
+</banner>

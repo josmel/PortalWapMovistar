@@ -1,0 +1,143 @@
+<div class="head">
+    <img class="img-head"
+         src="<?= DINAMIC_URL ?>logo/title-360.jpg">
+</div>
+<div class="spance-line"></div>
+<?php if ($this->estado) { ?>
+    <div id="section">
+        <div class="spance-line-item"></div>
+        <div class="title-list">
+            <div class="title-item">
+                bienvenid@ <?php echo $this->estado; ?>
+            </div>
+        </div>
+        <div class="spance-line-item"></div>
+    </div>  
+<?php } else { ?>
+    <div class="banner">
+        <div class="box2">
+            <a href="/go?categoria=inscripcion&descripcion=movistarMas&link=/portalwap/registrate">
+                <img  class="img-banner" src="<?= DINAMIC_URL ?>/movistar-mas_360x54.gif" alt="movistarMas" />
+            </a>
+        </div>
+    </div>
+    <div id="section">
+        <div class="spance-line-item"></div>
+    </div>  
+<?php } ?>
+
+<div class="spance-line"></div>
+<div class="banner">
+    <?php foreach (array(1, 2, 3) as $i) : ?>
+        <div class="box2">
+            <a href="/go?categoria=banner<?= $i ?>.<?= $this->SoapBanners[$i][0]['norder'] ?>&descripcion=<?= $this->SoapBanners[$i][0]['integrador'] ?>&link=<?= $this->SoapBanners[$i][0]['url'] ?>">
+                <img class="img-banner" src="<?= DINAMIC_URL ?>banner/basico360/<?= $this->SoapBanners[$i][0]['ImgBasico360'] ?>" alt="<?= $this->SoapBanners[$i][0]['titulo'] ?>" />
+            </a>
+        </div>
+    <?php endforeach; ?>      
+</div>
+
+<!--/////////////////TOP LINK ///////////////////////////////7-->
+<div style="clear: both;"></div>
+<div id="section">
+    <div class="title-list">
+        <div class="title-item">Top Link</div>
+    </div>
+    <div class="spance-line-item"></div>
+</div>
+<?php foreach ($this->SoapLink as $item): ?>
+    <div class="box"> <a href="/go?categoria=topLink&descripcion=<?= $item['descripcion'] ?>&link=<?= $item['url'] ?>">  <img class="img-banner" src="<?= DINAMIC_URL ?>link/<?= $item['imagen'] ?>"></a>
+    </div>
+<?php endforeach; ?>
+<!--/////////////////TOP LINK ///////////////////////////////7-->
+
+<!------------------------------- SERVICIOS    ------------------------------>
+<div style="clear: both;"></div>
+<div id="section">
+    <div class="title-list">
+        <div class="title-item">Servicios</div>
+    </div>
+    <div class="spance-line-item"></div>
+</div>
+<div class="banner">
+    <div class="box2">
+        <a href="/go?categoria=MovistarBanner&descripcion=<?= $this->SoapMovistarBanners['integrador'] ?>&link=<?= $this->SoapMovistarBanners['url'] ?>">
+            <img class="img-banner" src="<?= DINAMIC_URL ?>banner/basico360/<?= $this->SoapMovistarBanners['ImgBasico360'] ?>" alt="<?= $this->SoapMovistarBanners['titulo'] ?>" />
+        </a>
+    </div>
+</div>
+<div style="clear: both;"></div>
+<!------------------------------- SERVICIOS    ------------------------------>
+<!------------------------------- MUSICA   ------------------------------>
+<!-- música -->
+<div id="section">
+    <div class="title-list">
+        <div class="title-item">
+            Musica
+        </div>
+        <div class="title-clic">(Dando clic en la canción ya estás comprando! Costo S/. 4.75 )</div>
+    </div>
+    <div class="spance-line-item"></div>
+    <?php foreach ($this->SoapMusica as $item): ?>
+        <div class="list">
+            <a class="list-link"
+               href="/go?categoria=musica&descripcion=<?= $item['titulo'] ?>&link=<?= $item["url"] ?>"><?= $item["titulo"] ?>
+            </a>
+        </div>
+    <?php endforeach; ?>
+</div>
+
+<!------------------------------- MUSICA   ------------------------------>
+<!------------------------------- JUEGOS   ------------------------------>
+
+<!-- tonos -->
+<div id="section">
+    <div class="title-list">
+        <div class="title-item">
+            Juegos
+        </div>
+        <div class="title-clic">(Dando clic al juego ya estás comprando! Costo S/. 5.00)</div>
+    </div>
+    <div class="spance-line-item"></div>
+    <?php foreach ($this->SoapJuego as $item): ?>
+        <div class="list">
+            <a class="text-link"
+               href="/go?categoria=juego&descripcion=<?= $item['nombre'] ?>&link=<?= $item["url"] ?>"><?= $item["nombre"] ?>
+            </a>
+        </div>
+    <?php endforeach; ?>
+</div>
+
+
+<!------------------------------- JUEGOS   ------------------------------>
+<div class="banner-second-section">
+
+    <div class="banner">
+        <?php foreach (array(4) as $i) : ?>
+            <div class="box2">
+                <a href="/go?categoria=banner<?= $i ?>.<?= $this->SoapBanners[$i][0]['norder'] ?>&descripcion=<?= $this->SoapBanners[$i][0]['integrador'] ?>&link=<?= $this->SoapBanners[$i][0]['url'] ?>">
+                    <img class="img-banner" src="<?= DINAMIC_URL ?>banner/basico360/<?= $this->SoapBanners[$i][0]['ImgBasico360'] ?>" alt="<?= $this->SoapBanners[$i][0]['titulo'] ?>" />
+                </a>
+            </div>
+        <?php endforeach; ?>      
+    </div>
+</div>
+<div style="clear: both;"></div>
+
+<?php foreach ($this->SoapText as $item): ?>
+    <div class="center list-other box">
+        <a class="list-link2" href="/go?categoria=textLink&descripcion=<?= $item['alt'] ?>&link=<?= $item['url'] ?>">
+            <?= $item['descripcion'] ?>
+        </a>
+    </div>
+<?php endforeach; ?>
+
+<div class="banner">
+    <?php foreach (array(5) as $i) : ?>
+        <div class="box2">
+            <a href="/go?categoria=banner<?= $i ?>.<?= $this->SoapBanners[$i][0]['norder'] ?>&descripcion=<?= $this->SoapBanners[$i][0]['integrador'] ?>&link=<?= $this->SoapBanners[$i][0]['url'] ?>">
+                <img class="img-banner" src="<?= DINAMIC_URL ?>banner/basico360/<?= $this->SoapBanners[$i][0]['ImgBasico360'] ?>" alt="<?= $this->SoapBanners[$i][0]['titulo'] ?>" />
+            </a>
+        </div>
+    <?php endforeach; ?>      
+</div>

@@ -1,0 +1,32 @@
+<ROOT>
+    <CATEGORIA>
+    <NOMBRE>Musica </NOMBRE>
+    <TITULO>Me Muero Por Ti</TITULO>
+    <URL>/go?link=http://pe.movistar.genexies.net/outsider/preview_skipifjustonelink/MA==/9651664/yy</URL>
+    <img>artista_1.gif</img>
+  </CATEGORIA>
+  <CATEGORIA>
+    <NOMBRE>Musica</NOMBRE>
+    <TITULO>Magic!</TITULO>
+    <URL>/go?link=http://pe.movistar.genexies.net/outsider/preview_skipifjustonelink/MA==/9719688/r</URL>
+    <img>artista_2.gif</img>
+  </CATEGORIA>
+  <CATEGORIA>
+    <NOMBRE>Musica</NOMBRE>
+    <TITULO>Si te vas que hare</TITULO>
+    <URL>/go?link=http://pe.movistar.genexies.net/outsider/preview_skipifjustonelink/MA==/10205738/lsp</URL>
+    <img>artista_3.gif</img>
+  </CATEGORIA>
+   <CATEGORIA>
+    <NOMBRE>Musica</NOMBRE>
+    <TITULO>Corazon Ensangrentado</TITULO>
+    <URL>/go?link=http://pe.movistar.genexies.net/outsider/preview_skipifjustonelink/MA==/10163090/da</URL>
+    <img>artista_4.gif</img>
+  </CATEGORIA>
+  <CATEGORIA>
+    <NOMBRE>Musica</NOMBRE>
+    <TITULO>A sky of stars</TITULO>
+    <URL>/go?link=http://pe.movistar.genexies.net/outsider/preview_skipifjustonelink/MA==/10085849/c</URL>
+    <img>artista_5.gif</img>
+  </CATEGORIA>
+</ROOT>

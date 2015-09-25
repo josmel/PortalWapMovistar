@@ -1,0 +1,40 @@
+<juegos>
+	<title>
+		Juegos 
+  </title>
+	<contenido>
+		<item>                                                                   
+			<nombre>FIFA 14 </nombre>                                      
+			<url>/go?link=http://mcp-latam.zed.com/wap/Home.aspx?page=1&amp;ctid=3&amp;iid=211825&amp;nid=156153&amp;tiid=3</url>
+			<img>
+			juego_1.gif
+			</img>
+		</item>
+		<item>
+			<nombre>Left 2 Die</nombre>
+			<url>/go?link=http://mcp-latam.zed.com/club/Landing.aspx?page=1&amp;nid=14679&amp;pid=46&amp;ctid=0&amp;mac=LEFT2DIE_373</url>
+			<img>
+			juego_2.gif
+			</img>
+		</item>
+		<item>
+			<nombre>Zombie Chase 3</nombre>
+			<url>/go?link=http://mcp-latam.zed.com/club/Landing.aspx?page=1&amp;nid=15357&amp;pid=66&amp;ctid=0&amp;mac=ZOMCHA3_443</url>
+			<img>
+			juego_3.gif
+			</img>
+		</item>
+		<item>
+			<nombre>Bridezilla</nombre>
+			<url>/go?link=http://mcp-latam.zed.com/club/Landing.aspx?page=1&amp;nid=15363&amp;pid=66&amp;ctid=0&amp;mac=BRIDEZ_613</url>
+			<img>juego_4.gif
+			</img>
+		</item>
+		<item>
+			<nombre>Struggle for life</nombre>
+			<url>/go?link=http://mcp-latam.zed.com/club/Landing.aspx?page=1&amp;nid=15371&amp;pid=46&amp;ctid=0&amp;mac=SFL_758</url>
+			<img>juego_5.gif
+			</img>
+		</item>
+	</contenido>	
+</juegos>
